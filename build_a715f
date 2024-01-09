@@ -1,3 +1,8 @@
+# GCC used from
+# https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+# and Clang used from 
+# https://github.com/kdrag0n/proton-clang
+
 #!/bin/bash -x
 
 export PATH="$(pwd)/gcc/bin:$(pwd)/proton-clang/bin:$PATH"
